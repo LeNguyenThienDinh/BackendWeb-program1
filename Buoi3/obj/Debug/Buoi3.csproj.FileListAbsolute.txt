@@ -42,3 +42,4 @@ E:\hufi\ltweb\BackendWeb-program-main\Buoi3\bin\System.Web.Mvc.xml
 E:\hufi\ltweb\BackendWeb-program-main\Buoi3\obj\Debug\Buoi3.csprojResolveAssemblyReference.cache
 E:\hufi\ltweb\BackendWeb-program-main\Buoi3\obj\Debug\Buoi3.dll
 E:\hufi\ltweb\BackendWeb-program-main\Buoi3\obj\Debug\Buoi3.pdb
+E:\hufi\ltweb\BackendWeb-program-main\Buoi3\bin\Microsoft.Web.Infrastructure.dll

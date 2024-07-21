@@ -34,7 +34,8 @@ namespace Buoi3.Controllers
 
             if (user != null)
             {
-                return RedirectToAction("Success");
+                Session["User"] = user;
+                return RedirectToAction("UserPage");
             }
             else
             {
@@ -47,14 +48,11 @@ namespace Buoi3.Controllers
         {
             return View();
         }
-        public ActionResult Success()
-        {
-            return View();
-        }
+
         public ActionResult Logout()
         {
             Session.Clear();
-            return RedirectToAction("User");
+            return RedirectToAction("Index", "Home");
         }
 
         public ActionResult UserPage()
@@ -66,6 +64,11 @@ namespace Buoi3.Controllers
             }
 
             return View(user);
+        }
+
+        public ActionResult Success()
+        {
+            return View();
         }
     }
 }
